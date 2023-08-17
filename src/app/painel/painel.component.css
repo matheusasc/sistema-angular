@@ -3,3 +3,19 @@
 /*  width: 700px;*/
 /*  height: 800px;*/
 /*}*/
+
+/*@media screen and (max-width: 991px){*/
+/*  #painel .col-2{*/
+/*    padding: 30px;*/
+/*  }*/
+/*}*/
+
+@media screen and (max-width: 768px) {
+  .painel {
+    flex-direction: column;
+  }
+}
+
+.login{
+  background-color: #0e6251;
+}
