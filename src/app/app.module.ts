@@ -5,20 +5,24 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { PainelComponent } from './painel/painel.component';
-import {ReactiveFormsModule} from "@angular/forms";
+import {FormsModule, ReactiveFormsModule} from "@angular/forms";
+import { HomeComponent } from './home/home.component';
+import {AuthService} from "./painel/auth.service";
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    PainelComponent
+    PainelComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
     NgbModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    FormsModule
   ],
-  providers: [],
+  providers: [AuthService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

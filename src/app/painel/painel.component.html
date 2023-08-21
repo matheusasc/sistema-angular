@@ -6,15 +6,16 @@
       <h2>Fazer login</h2>
       <p>Entre na sua conta do fórum</p>
     </div>
+
     <!--  <form [formGroup]="loginForm" class="login-form">-->
     <div class="form-group col-sm-6 d-flex w-100 flex-column align-items-center">
-      <label for="nickName">Usuário</label>
-      <input type="text" formControlName="nickName" class="form-control w-50" id="nickName">
+      <label for="usuario">Usuário</label>
+      <input type="text" formControlName="nome" class="form-control w-50" id="usuario">
     </div>
 
-    <div class="form-group col-sm-6">
-      <label for="password">Senha</label>
-      <input type="password" formControlName="password" class="form-control" id="password">
+    <div class="form-group col-sm-6 d-flex w-100 flex-column align-items-center">
+      <label for="senha">Senha</label>
+      <input type="password" formControlName="password" class="form-control w-50" id="senha">
     </div>
 
     <button type="submit" class="btn btn-primary">Entrar</button>
