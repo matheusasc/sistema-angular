@@ -8,6 +8,10 @@ import { PainelComponent } from './painel/painel.component';
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import { HomeComponent } from './home/home.component';
 import {AuthService} from "./painel/auth.service";
+import { RodapeComponent } from './rodape/rodape.component';
+import { LoginComponent } from './login/login.component';
+import {RouterLink, RouterOutlet, RouterModule} from "@angular/router";
+import {ROUTES} from "./app-routing.module";
 
 @NgModule({
   declarations: [
@@ -15,12 +19,17 @@ import {AuthService} from "./painel/auth.service";
     HeaderComponent,
     PainelComponent,
     HomeComponent,
+    RodapeComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
     NgbModule,
     ReactiveFormsModule,
-    FormsModule
+    FormsModule,
+    RouterOutlet,
+    RouterLink,
+    RouterModule.forRoot(ROUTES)
   ],
   providers: [AuthService],
   bootstrap: [AppComponent]

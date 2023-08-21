@@ -1,0 +1,9 @@
+@media screen and (max-width: 768px) {
+  .painel {
+    flex-direction: column;
+  }
+}
+
+.login{
+  background-color: #0e6251;
+}

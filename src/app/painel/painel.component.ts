@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {AuthService} from "./auth.service";
 import {Usuario} from "./usuario";
+import {FormBuilder, FormGroup, Validators} from "@angular/forms";
 
 @Component({
   selector: 'app-painel',
@@ -9,10 +10,9 @@ import {Usuario} from "./usuario";
 })
 export class PainelComponent implements OnInit {
 
-  constructor() {
+  public loginForm: FormGroup;
 
-  }
-  ngOnInit() {
-  }
+  constructor() {}
+  ngOnInit() {}
 
 }

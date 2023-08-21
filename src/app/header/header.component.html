@@ -1,8 +1,21 @@
-<nav class="navbar navbar-inverse bg-green">
-  <img src="/assets/logo.png"  style="width: 58px; height: 58px;">
-  <h1 class="navbar-brand mb-0 text-white ml-2" style="margin-right: 1590px;">
-    PMAM
-    <br>
-    Polícia Militar do Amazonas
-  </h1>
-</nav>
+<div class="header row">
+  <div class="col-10 d-flex pe-3 pt-1">
+    <div class="ps-3 pt-2">
+      <img class="img-logo" src="/assets/logo.png">
+    </div>
+    <div class="title-header ps-3 mt-0">
+      <div class="fs-5 mb-0">
+        PMAM
+      </div>
+      <div class="fs-6 mt-0">
+        Polícia Militar do Amazonas
+      </div>
+    </div>
+  </div>
+  <div class="col-2 justify-content-center my-2 py-2">
+    <button class="btn btn-primary" (click)="voltar()">
+      <span class="glyphicon glyphicon-log-out"></span> Log out
+      Logout
+    </button>
+  </div>
+</div>
