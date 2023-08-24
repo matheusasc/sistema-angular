@@ -1,0 +1,10 @@
+.container {
+  width: 30vw;
+  height: 1500px;
+  background-color: #f4f3f3;
+}
+
+.container img {
+  max-width: 15%;
+  max-height: 15%;
+}
