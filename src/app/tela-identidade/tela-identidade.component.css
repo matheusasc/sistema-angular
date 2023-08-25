@@ -1,0 +1,39 @@
+.cartao {
+  width: 50vw;
+  height: 550px;
+  background-color: #f4f3f3;
+}
+
+.layout-principal-identidade {
+  background-color: #d0d0d0;
+}
+
+.container-logo img {
+  max-width: 10%;
+  max-height: 10%;
+  color: #1c6f40;
+}
+
+.title-identidade-republica {
+  font-size: 14px;
+  color: #1c6f40;
+}
+
+.title-identidade-estado {
+  font-size: 14px;
+  color: #1c6f40;
+}
+
+.title-identidade-policia {
+  font-size: 22px;
+  color: #1c6f40;
+}
+
+.title-identidade-carteira {
+  font-size: 16px;
+  color: #922727;
+}
+
+.container-fluid {
+  background-color: #acc8c3;
+}

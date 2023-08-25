@@ -13,6 +13,7 @@ import { LoginComponent } from './login/login.component';
 import {RouterLink, RouterOutlet, RouterModule} from "@angular/router";
 import {ROUTES} from "./app-routing.module";
 import { TelaCcafComponent } from './tela-ccaf/tela-ccaf.component';
+import { TelaIdentidadeComponent } from './tela-identidade/tela-identidade.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { TelaCcafComponent } from './tela-ccaf/tela-ccaf.component';
     RodapeComponent,
     LoginComponent,
     TelaCcafComponent,
+    TelaIdentidadeComponent,
   ],
   imports: [
     BrowserModule,

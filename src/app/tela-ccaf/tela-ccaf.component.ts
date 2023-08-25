@@ -18,7 +18,7 @@ export class TelaCcafComponent implements OnInit{
   ngOnInit() {
   }
 
-  printPDF(){
+  gerarPDF(){
     let pdf = new jsPDF('p', 'pt', 'a4');
     pdf.html(this.el.nativeElement, {
       callback: (pdf) => {
