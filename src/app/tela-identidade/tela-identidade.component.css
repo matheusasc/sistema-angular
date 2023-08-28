@@ -4,6 +4,11 @@
   background-color: #f4f3f3;
 }
 
+.identidade {
+  width: 311px;
+  height: 487px;
+}
+
 .layout-principal-identidade {
   background-color: #d0d0d0;
 }
@@ -37,3 +42,78 @@
 .container-fluid {
   background-color: #acc8c3;
 }
+
+.logo-topo {
+  width: 100%;
+  height: 120%
+}
+
+.container-fluid {
+  position: relative;
+}
+
+#card-person {
+  width: 250px;
+  height: 280px;
+}
+
+#img-logo-background {
+  position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+  background-repeat: no-repeat;
+  opacity: 0.2;
+  background-size: 25%;
+  background-position: center;
+}
+
+.campo-dados-nome {
+  margin: 3px;
+  border-color: black;
+  font-size: 13px;
+  width: 585px;
+  height: 60px;
+}
+
+.campo-dados-validade {
+  margin: 3px;
+  border-color: black;
+  font-size: 13px;
+  width: 290px;
+  height: 60px;
+}
+
+.campo-dados-sit-funcional {
+  margin: 3px;
+  border-color: black;
+  font-size: 13px;
+  width: 290px;
+  height: 60px;
+}
+
+.campo-dados-ci {
+  margin: 3px;
+  border-color: black;
+  font-size: 13px;
+  width: 195px;
+  height: 60px;
+}
+
+.campo-dados-via {
+  margin: 3px;
+  border-color: black;
+  font-size: 13px;
+  width: 90px;
+  height: 60px;
+}
+
+.campo-dados-data-inclusao {
+  margin: 3px;
+  border-color: black;
+  font-size: 13px;
+  width: 290px;
+  height: 60px;
+}
+
+.campo-resultado-dados {
+  font-size: 25px;
+}
+
